@@ -1,0 +1,258 @@
+/* About Us Header */
+body {
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  
+  .logo {
+      height: 20px;
+      padding-left: 100px; 
+  }
+  
+  @media (max-width: 768px) {
+      .logo {
+        padding-left: 10px; 
+      }
+  }
+  
+  /* Header */
+  .header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: transparent;
+  }
+  
+  .navbar {
+      background-color: #0B6539;
+  }
+  
+  .navbar-brand .logo {
+      height: 50px;
+  }
+  
+  .navbar-nav {
+      display: flex;
+      justify-content: space-between;
+      flex-grow: 1;
+      max-width: 600px; 
+  }
+  
+  .nav-link {
+      color: #fff !important;
+      text-decoration: none !important;
+  }
+  
+  .nav-link:hover {
+      color: #F4C83F !important;
+      text-decoration: none !important;
+  }
+  .about-section {
+    background-color: #f9f9f9; /* Light background color for better readability */
+    padding: 50px 0; /* Vertical padding */
+  }
+  
+  .about-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0B6539;
+  }
+  
+  .about-section p.text-muted {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .content-image {
+    display: flex;
+    gap: 40px; /* Spacing between text and image */
+    flex-wrap: wrap; /* Ensure responsiveness */
+    justify-content: center;
+  }
+  
+  .content-image.reverse {
+    flex-direction: row-reverse; /* Reverse the layout for alternating sections */
+  }
+  
+  .content {
+    flex: 1;
+    max-width: 500px; /* Limit the width of the text content */
+  }
+  
+  .content h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  .custom-paragraph {
+    font-size: 5.1rem; /* Adjust the font size */
+    line-height: 1.8; /* Add spacing between lines */
+    color: #0B6539; /* Use a neutral, readable color */
+    font-family: 'Arial', sans-serif; /* Set a clean, modern font */
+    text-align: justify; /* Align the text for better readability */
+    margin-top: 15px; /* Add spacing above */
+    margin-bottom: 15px; /* Add spacing below */
+  }
+  
+  .custom-paragraph strong {
+    color: #333; /* Highlight important text */
+    font-weight: bold; /* Make it bold */
+  }
+  
+  .custom-paragraph em {
+    font-style: italic; /* Italicize emphasized text */
+    color: #777; /* Use a lighter color */
+  }
+  
+
+  
+  .image {
+    flex: 1;
+    max-width: 400px; /* Adjust the size of the images */
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add rounded corners to images */
+  }
+  
+  @media (max-width: 768px) {
+    .content-image {
+      flex-direction: column; /* Stack content and image vertically on smaller screens */
+      gap: 20px;
+    }
+  
+    .content {
+      text-align: center; /* Center text on smaller devices */
+    }
+  }
+  
+  
+  
+  
+ /* Footer */
+ .footer {
+    background-color: #0B6539;
+  }
+  
+  .footer-links .list-inline-item a {
+    color: #F4C83F;
+    text-decoration: none;
+  }
+  
+  .footer-text {
+    margin-top: 1rem;
+    color: #fff;
+  }
+  
+  .footer {
+      background: #0B6539;
+      color: white;
+      padding: 40px 0;
+      font-family: 'Rubik', sans-serif;
+  }
+  
+  .footer .links ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  .footer .links li {
+      margin: 8px 0;
+  }
+  
+  .footer .links li a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+  }
+  
+  .footer .links li a:hover {
+      color: #F4C83F;
+  }
+  
+  .footer .company-info {
+      margin-bottom: 20px;
+  }
+  
+  .footer .company-info p {
+      color: white;
+  }
+  
+  .footer .company-info a {
+      color: white;
+      margin-right: 10px;
+      transition: color 0.3s;
+  }
+  
+  .footer .company-info a:hover {
+      color: #F4C83F;
+  }
+  
+  .footer .social-icon {
+      font-size: 25px;
+      margin-right: 10px;
+      color: white;
+      transition: color 0.3s;
+  }
+  
+  .footer .social-icon:hover {
+      color: #F4C83F;
+  }
+  
+  .footer .location p {
+      margin-bottom: 10px;
+      font-size: 14px;
+      margin-top: 10px;
+  }
+  
+  .footer .location i {
+      font-size: 18px;
+      margin-right: 5px;
+  }
+  
+  .footer .copyright {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 10px;
+      color: white;
+      font-size: 14px;
+      text-align: center;
+  }
+  
+  .footer .logo {
+      max-width: 200px;
+      margin-bottom: 1px;
+      border-radius: 50%;
+      margin-left: 2px;
+      padding: 2px;
+  }
+  
+  .app-store-link {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .app-store-icon {
+    width: 140px; 
+    height: 40px; 
+    object-fit: contain;
+  }
+
+  .social-icons {
+    margin-top: 30px;
+    width: 30px; /* Set the width of the icons */
+  }
+  
+  .social-icons:hover {
+  
+    opacity: 0.8; 
+  }
